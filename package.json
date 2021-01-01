@@ -1,0 +1,29 @@
+{
+  "name": "peach-batcher",
+  "version": "1.0.0",
+  "description": "Node module to run async batches of jobs while limiting the number being performed at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickpharrison/peach-batcher.git"
+  },
+  "keywords": [
+    "Node",
+    "async",
+    "run",
+    "job",
+    "batches"
+  ],
+  "author": "nickpharrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickpharrison/peach-batcher/issues"
+  },
+  "homepage": "https://github.com/nickpharrison/peach-batcher#readme",
+  "dependencies": {
+    "tape": "^5.1.0"
+  }
+}
